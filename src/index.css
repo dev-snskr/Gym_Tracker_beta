@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #160F0F;
+    color: #F3E0DE;
+  }
+}
+
+.font-hud {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.font-display {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Material You Pixel Glows & Shadows */
+.glow-m3-rose {
+  box-shadow: 0 0 20px rgba(226, 135, 149, 0.35);
+}
+
+.glow-m3-peach {
+  box-shadow: 0 0 20px rgba(247, 180, 162, 0.35);
+}
+
+.glow-m3-tertiary {
+  box-shadow: 0 0 20px rgba(183, 217, 186, 0.35);
+}
+
+/* Material You subtle organic ripple background */
+.m3-surface-gradient {
+  background: radial-gradient(circle at 15% 15%, rgba(114, 59, 68, 0.18), transparent 45%),
+              radial-gradient(circle at 85% 85%, rgba(98, 54, 44, 0.15), transparent 50%),
+              #160F0F;
+}
+
+/* M3 Glass & Container */
+.m3-container {
+  background-color: #231817;
+  border-color: #3E2B2A;
+}
+
+.m3-container-high {
+  background-color: #2C1E1D;
+  border-color: #4A3331;
+}
+
+.m3-container-highest {
+  background-color: #362524;
+  border-color: #553A38;
+}

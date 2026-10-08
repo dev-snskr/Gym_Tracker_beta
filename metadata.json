@@ -1,0 +1,10 @@
+{
+  "name": "Gym Form AI - Real-Time Pose Correction & Fitness Guidance",
+  "description": "Beginner-focused computer vision exercise posture correction, biomechanical rep state machine, real-time audio coaching, fatigue breakdown, and nutrition guidance platform.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
